@@ -60,7 +60,6 @@
   }  
   
   .movies-content {  
-    max-width: 1200px;  
     margin: 0 auto;  
     padding: 0 40px;  
   }  
@@ -80,7 +79,7 @@
   
   .movies-grid {  
     display: grid;  
-    grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));  
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));  
     gap: 20px;  
     margin-bottom: 40px;  
   }  
@@ -125,3 +124,7 @@
   .ellipsis {  
     color: #666;  
   }  
+
+  .container.mt-4 {
+    max-width: unset;
+  }
